@@ -118,38 +118,38 @@ class _WeatherScreenState extends State<WeatherScreen> {
         
               const SizedBox(height: 20),
         
-              const SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: [
-                    HourlyForecastItem(
-                      time: '00:00',
-                      icon: Icons.cloud,
-                      temperature: '301.00',
-                    ),
-                    HourlyForecastItem(
-                      time: '03:00',
-                      icon: Icons.sunny,
-                      temperature: '272.02',
-                    ),
-                    HourlyForecastItem(
-                      time: '04:00',
-                      icon: Icons.cloud,
-                      temperature: '301.00',
-                    ),
-                    HourlyForecastItem(
-                      time: '09:00',
-                      icon: Icons.sunny,
-                      temperature: '301.00',
-                    ),
-                    HourlyForecastItem(
-                      time: '00:00',
-                      icon: Icons.cloud,
-                      temperature: '301.00',
-                    ),
-                  ],
-                ),
-              ),
+              // const SingleChildScrollView(
+              //   scrollDirection: Axis.horizontal,
+              //   child: Row(
+              //     children: [
+              //       HourlyForecastItem(
+              //         time: '00:00',
+              //         icon: Icons.cloud,
+              //         temperature: '301.00',
+              //       ),
+              //       HourlyForecastItem(
+              //         time: '03:00',
+              //         icon: Icons.sunny,
+              //         temperature: '272.02',
+              //       ),
+              //       HourlyForecastItem(
+              //         time: '04:00',
+              //         icon: Icons.cloud,
+              //         temperature: '301.00',
+              //       ),
+              //       HourlyForecastItem(
+              //         time: '09:00',
+              //         icon: Icons.sunny,
+              //         temperature: '301.00',
+              //       ),
+              //       HourlyForecastItem(
+              //         time: '00:00',
+              //         icon: Icons.cloud,
+              //         temperature: '301.00',
+              //       ),
+              //     ],
+              //   ),
+              // ),
         
               const SizedBox(height: 20),
               Text(
